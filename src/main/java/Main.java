@@ -22,11 +22,12 @@ public class Main {
 
         try (Reader reader = new FileReader(path);
              BufferedReader bufferedReader = new BufferedReader(reader)) {
+            bufferedReader.readLine();
             String line = bufferedReader.readLine();
 
             while (line != null) {
                 String[] attributes = line.split(splitBy);
-                Student student = createTransaction(attributes);
+                Student student = createStudent(attributes);
                 students.add(student);
                 line = bufferedReader.readLine();
             }
@@ -36,8 +37,7 @@ public class Main {
         return students;
     }
 
-    private static Student createTransaction(String[] metadata) {
-
+    private static Student createStudent(String[] metadata) {
         long id = Long.parseLong(metadata[0]);
         String name = metadata[1];
 //        LocalDateTime dateTime = LocalDateTime.parse(metadatum);
