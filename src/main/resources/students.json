@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "John Smith",
+    "attendedLessons": {
+      "id": 1,
+      "lessonTitle": "Geometry",
+      "visitingStudents": [
+        "reference on student 1",
+        "reference on student 2"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "name": "Sara Parker",
+    "attendedLessons": {
+      "id": 2,
+      "lessonTitle": "Mathematics",
+      "visitingStudents": [
+        "reference on student 1",
+        "reference on student 2"
+      ]
+    }
+  }
+]
