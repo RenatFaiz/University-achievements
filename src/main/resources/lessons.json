@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "lessonTitle": "Geometry",
+    "visitingStudents": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 2,
+    "lessonTitle": "Mathematics",
+    "visitingStudents": [
+      2,
+      4
+    ]
+  },
+  {
+    "id": 3,
+    "lessonTitle": "Physics",
+    "visitingStudents": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 4,
+    "lessonTitle": "English",
+    "visitingStudents": [
+      1,
+      4
+    ]
+  }
+]
