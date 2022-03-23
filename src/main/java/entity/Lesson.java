@@ -15,10 +15,6 @@ public class Lesson {
 
     private long id;
     private String lessonTitle;
-    private List<Student> visitingStudents;
+    private List<Long> visitingStudents;
 
-    public Lesson(long id, String lessonTitle) {
-        this.id = id;
-        this.lessonTitle = lessonTitle;
-    }
 }

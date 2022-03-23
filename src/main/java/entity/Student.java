@@ -15,14 +15,5 @@ public class Student {
 
     private long id;
     private String name;
-    private List<Lesson> attendedLessons;
-
-    public void attendLesson(Lesson lesson){
-
-    }
-
-    public Student(long id, String name) {
-        this.id = id;
-        this.name = name;
-    }
+    private List<Long> attendedLessons;
 }
